@@ -1,3 +1,7 @@
 server:
   port: 9094
 
+security:
+    oauth2:
+        resource:
+            filter-order: 3
